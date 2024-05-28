@@ -1,5 +1,5 @@
-import Header from './Header'
-import MainAccueil from './MainAccueil';
+import Header from '../Header'
+import MainAccueil from '../accueil/MainAccueil';
 
 function Accueil() {
   return (
