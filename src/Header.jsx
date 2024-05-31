@@ -1,7 +1,7 @@
 import React from "react";
 import '../src/style.css';
 
-function Header() {
+const Header=() =>{
     return (
         <div className="NavBar">
              <nav class="navbar navbar-expand-lg navbar-dark p-3 text-uppercase" id="navbar">
@@ -16,24 +16,23 @@ function Header() {
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                            <a class="nav-link active" aria-current="page" href="/">Accueil</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+                            <a class="nav-link" href="/Service">Services</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#realisations">Réalisations</a>
+                            <a class="nav-link" href="/Realization">Réalisations</a>
                             </li>
                             <li class="nav-item"> 
-                            <a class="nav-link" href="#blog">Blog</a>
+                            <a class="nav-link" href="/Blog">Blog</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#contact">Me contacter</a>
+                            <a class="nav-link" href="/Contact">Me contacter</a>
                             </li>
                         </ul>
                         </div>
                     </div>
-                    
                 </div>
             </nav>
         </div>

@@ -12,10 +12,20 @@
     opacity: 0.3;
     height:800px;
   }
-  .BgImage h1{
+  .Opacity h1{
     font-size: 4rem;
   }
-  .BgImage h2{
+  .Opacity h2{
     font-size: 2rem;
   }
-  
+  .About{
+    display: flex;
+  }
+  .AboutShadow{
+    width: 80%;
+    margin: auto;
+    box-shadow: 0px 4px 7px 0px #C6C6C6;
+  }
+  .AboutTitle{
+    border-top: solid #0D6EFD ;
+  }
