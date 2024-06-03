@@ -9,7 +9,11 @@
     padding: 240px 0;
     background-size: cover;
     background-color: black;
+<<<<<<< HEAD
     Opacity: 0.3;
+=======
+    opacity: 0.3;
+>>>>>>> home
     height:800px;
   }
   .Opacity h1{
