@@ -10,12 +10,10 @@ const Realization=() =>{
             </header>
             <main>
                 <div>
-<<<<<<< HEAD
                     <div className="TitleRea text-center">
                         <img src="/public/img/banner.jpg" class="img-fluid"></img>
                         <h1 className="text-uppercase">Portfolio</h1>
                         <p>Voici quelques-unes de mes réalisations.</p>
-                        <div className="Border"></div>
                     </div>
                     <div className="Portfolio m-5 row text-center">
                         <div className="col card m-3 p-0" id="freshfood" style={{width: "18rem"}}>
@@ -54,12 +52,6 @@ const Realization=() =>{
                     </div>
                 </div>
                 
-=======
-                    <img src="/public/img/banner.jpg" class="img-fluid"></img>
-                    <h1 className="text-uppercase">Portfolio</h1>
-                    <p>Voici quelques-unes de mes réalisations.</p>
-                </div>
->>>>>>> home
             </main>
             <footer>
                 <Footer/>
