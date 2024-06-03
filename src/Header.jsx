@@ -1,5 +1,5 @@
 import React from "react";
-import '../src/style.css';
+import '../src/style/style.css';
 
 const Header=() =>{
     return (
@@ -14,23 +14,23 @@ const Header=() =>{
                     </div>
                     <div className="NavLink">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Accueil</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="/Service">Services</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="/Realization">Réalisations</a>
-                            </li>
-                            <li class="nav-item"> 
-                            <a class="nav-link" href="/Blog">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="/Contact">Me contacter</a>
-                            </li>
-                        </ul>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="/">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Service">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Realization">Réalisations</a>
+                                </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="/Blog">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/Contact">Me contacter</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

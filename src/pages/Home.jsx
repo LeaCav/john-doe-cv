@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import '../style/accueil.css';
 
 const Home =() =>{
@@ -39,7 +40,7 @@ const Home =() =>{
                             </div>
                         </div>
                         <div className="Competences col align-items m-2 p-4">
-                                <img src="/public/img/john-doe-about.jpg" class="img-fluid" alt="About"></img>
+                                <img src="/public\img\john-doe-about.jpg" class="img-fluid" alt="About"></img>
                             <h3>Mes compétences</h3>
                             <div class="m-2">
                                 <p>HTML5 90%</p>
@@ -75,6 +76,9 @@ const Home =() =>{
                     </div>
                 </div>
             </main>
+            <footer>
+                <Footer />
+            </footer>
         </div>
     )
 }
