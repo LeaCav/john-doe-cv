@@ -44,9 +44,9 @@ const Footer=() =>{
                     <div className="col">
                         <strong className="p-2">Mes derniers articles</strong>
                         <ul>
-                            <li><a class="nav-link active" aria-current="page" href="/">Coder son site en HTML/CSS</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="/">Vendre ses produits sur le web</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="/">Se positionner sur Google</a></li>
+                            <li><a class="nav-link active" aria-current="page" href="/blog/#html">Coder son site en HTML/CSS</a></li>
+                            <li><a class="nav-link active" aria-current="page" href="/blog/#sell">Vendre ses produits sur le web</a></li>
+                            <li><a class="nav-link active" aria-current="page" href="/blog/#google">Se positionner sur Google</a></li>
                         </ul>
                     </div>
                 </div>
