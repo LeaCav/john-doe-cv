@@ -12,14 +12,14 @@ const Service=() =>{
             <header>
                 <Header/>
             </header>
-            <main className='MainService'>
+            <main>
                 <div className="TitleService text-center">
                     <img src="/public/img/banner.jpg" className="img-fluid"></img>
                     <h1 className="text-uppercase">Mon offre de services</h1>
                     <p>Voici les prestations sur lesquelles je peux intervenir.</p>
                 </div>
                 <div className="m-5 row text-center">
-                    <div className="col card m-3 p-5" id="" style={{width: "18rem"}}>
+                    <div className="CardService col card m-3 p-5" id="" style={{width: "18rem"}}>
                         <FaDesktop className="Icon mx-auto m-3"/>
                         <div class="card-body p-0">
                             <h2 class="card-title text-uppercase">UX design</h2>
@@ -27,7 +27,7 @@ const Service=() =>{
                             Son but est d'offrir une expérience de navigation optimale à l'internaute.</p>
                         </div>
                     </div>
-                    <div className="col card m-3 p-5" id="" style={{width: "18rem"}}>
+                    <div className="CardService col card m-3 p-5" id="" style={{width: "18rem"}}>
                         <BsFileEarmarkCodeFill className="Icon mx-auto m-3"/>
                         <div class="card-body p-0">
                             <h2 class="card-title text-uppercase">Développement web</h2>
@@ -35,7 +35,7 @@ const Service=() =>{
                             HTML, CSS, JavaScript et PHP.</p>
                         </div>
                     </div>
-                    <div className="col card m-3 p-5" id="bienetre" style={{width: "18rem"}}>
+                    <div className="CardService col card m-3 p-5" id="bienetre" style={{width: "18rem"}}>
                         <FaSearchDollar className="Icon mx-auto m-3"/>
                         <div class="card-body p-0">
                             <h2 class="card-title text-uppercase">Référencement</h2>
