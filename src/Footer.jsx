@@ -1,5 +1,7 @@
 import React from "react";
 import '../src/style/style.css';
+import { BiLogoGithub} from "react-icons/bi";
+import { FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer=() =>{
     return(
@@ -12,14 +14,14 @@ const Footer=() =>{
                         69009 Lyon, France <br></br>
                         <a href="tel:0620304050" className="text-decoration-none text-dark">Téléphone : 06 20 30 40 50</a></address>
                         <div className="Logo">
-                            <a href="https://github.com/" target="_blank">
-                                <img src="/public/img/icon/icons8-github-64" alt="Logo cliquable GitHub"></img>
+                            <a href="https://github.com/" target="_blank" className="p-2">
+                                <BiLogoGithub className="LinkIcon"/>
                             </a>
-                            <a href="https://x.com/" target="_blank">
-                                <img src="./public/img/icon/icons8-logo-twitter-encadré-64" alt="Logo cliquable Twitter"></img>
+                            <a href="https://x.com/" target="_blank" className="p-2">
+                                <FaTwitterSquare className="LinkIcon"/>
                             </a>
-                            <a href="https://www.linkedin.com/" target="_blank">
-                                <img src="../public/img/icon/icons8-linkedin-50" alt="Logo cliquable LinkedIn"></img>
+                            <a href="https://www.linkedin.com/" target="_blank" className="p-2">
+                                <FaLinkedin className="LinkIcon"/>
                             </a>
                         </div>
                     </div>
