@@ -28,27 +28,27 @@ const Footer=() =>{
                     <div className="col">
                         <strong className="p-2">Liens utiles</strong>
                         <ul>
-                            <li><a class="nav-link active" aria-current="page" href="/">Accueil</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="#about">A propos</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="/Service">Services</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="/Contact">Me contacter</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="">Mentions légales</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/">Accueil</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="#about">A propos</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/Service">Services</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/Contact">Me contacter</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="git ">Mentions légales</a></li>
                         </ul>
                     </div>
                     <div className="col">
                         <strong className="p-2">Mes dernières réalisations</strong>
                         <ul>
-                            <li><a class="nav-link active" aria-current="page" href="/realization/#freshfood">Fresh food</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="/realization/#akira">Restaurant Akira</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="/realization/#bienetre">Espace bien-être</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/realization/#freshfood">Fresh food</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/realization/#akira">Restaurant Akira</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/realization/#bienetre">Espace bien-être</a></li>
                         </ul>
                     </div>
                     <div className="col">
                         <strong className="p-2">Mes derniers articles</strong>
                         <ul>
-                            <li><a class="nav-link active" aria-current="page" href="/blog/#html">Coder son site en HTML/CSS</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="/blog/#sell">Vendre ses produits sur le web</a></li>
-                            <li><a class="nav-link active" aria-current="page" href="/blog/#google">Se positionner sur Google</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/blog/#html">Coder son site en HTML/CSS</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/blog/#sell">Vendre ses produits sur le web</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/blog/#google">Se positionner sur Google</a></li>
                         </ul>
                     </div>
                 </div>

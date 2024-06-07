@@ -4,31 +4,31 @@ import '../src/style/style.css';
 const Header=() =>{
     return (
         <div className="NavBar">
-             <nav class="navbar navbar-expand-lg navbar-dark p-3 text-uppercase" id="navbar">
-                <div class="container-fluid d-flex">
-                    <div class="text-center">
-                        <a class="navbar-brand" href="#">John Doe</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+             <nav className="navbar navbar-expand-lg navbar-dark p-3 text-uppercase" id="navbar">
+                <div className="container-fluid d-flex">
+                    <div className="text-center">
+                        <a className="navbar-brand" href="#">John Doe</a>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
                     </div>
                     <div className="NavLink">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="true" href="/">Accueil</a>
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li className="nav-item">
+                                    <a className="nav-link" aria-current="true" href="/">Accueil</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"  aria-current="true" href="/Service">Services</a>
+                                <li className="nav-item">
+                                    <a className="nav-link"  aria-current="true" href="/Service">Services</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"  aria-current="true" href="/Realization">Réalisations</a>
+                                <li className="nav-item">
+                                    <a className="nav-link"  aria-current="true" href="/Realization">Réalisations</a>
                                 </li>
-                                <li class="nav-item"> 
-                                    <a class="nav-link"  aria-current="true" href="/Blog">Blog</a>
+                                <li className="nav-item"> 
+                                    <a className="nav-link"  aria-current="true" href="/Blog">Blog</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link"  aria-current="true" href="/Contact">Me contacter</a>
+                                <li className="nav-item">
+                                    <a className="nav-link"  aria-current="true" href="/Contact">Me contacter</a>
                                 </li>
                             </ul>
                         </div>

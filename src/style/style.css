@@ -60,7 +60,15 @@
 
 
 /*Contact*/
-
+.MainContact{
+  background-image: url('/public/img/contact-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Form, .Map{
+  border-top: solid #0D6EFD;
+}
 
 /*Footer*/
 .LinkIcon{
