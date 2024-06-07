@@ -5,6 +5,7 @@ import Service from './pages/Service';
 import Realization from './pages/Realization';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import LegalNotice from './pages/LegalNotice';
 
 function App() {
     return(
@@ -15,6 +16,7 @@ function App() {
                 <Route path='/Realization' element={<Realization/>} />
                 <Route path='/Blog' element={<Blog/>} />
                 <Route path='/Contact' element={<Contact/>} />
+                <Route path='/LegalNotice' element={<LegalNotice/>} />
             </Routes>
         </div>
     )

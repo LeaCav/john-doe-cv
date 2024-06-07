@@ -13,8 +13,10 @@ const Realization=() =>{
                 <div>
                     <div className="TitleRea text-center">
                         <img src="../../public/img/banner.jpg" className="img-fluid"></img>
-                        <h1 className="text-uppercase">Portfolio</h1>
-                        <p>Voici quelques-unes de mes réalisations.</p>
+                        <div className='m-5'>
+                            <h1 className="text-uppercase">Portfolio</h1>
+                            <p>Voici quelques-unes de mes réalisations.</p>
+                        </div>
                     </div>
                     <div className="Portfolio m-5 row text-center">
                         <div className="col card m-3 p-0" id="freshfood" style={{width: "18rem"}}>

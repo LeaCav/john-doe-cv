@@ -13,8 +13,10 @@ const Blog=() =>{
                 <div>
                     <div className="TitleBlog text-center">
                         <img src="../../public/img/banner.jpg" className="img-fluid"></img>
-                        <h1 className="uppercase">Blog</h1>
-                        <p>Retrouvez ici quelues articles sur le développement web.</p>
+                        <div className='m-5'>
+                            <h1 className="uppercase">Blog</h1>
+                            <p> Retrouvez ici quelues articles sur le développement web.</p>
+                        </div>
                     </div>
                     <div className="Blog">
                         <div className="m-5 row text-start">

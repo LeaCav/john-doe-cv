@@ -15,8 +15,11 @@ const Service=() =>{
             <main>
                 <div className="TitleService text-center">
                     <img src="../../public/img/banner.jpg" className="img-fluid"></img>
-                    <h1 className="text-uppercase">Mon offre de services</h1>
-                    <p>Voici les prestations sur lesquelles je peux intervenir.</p>
+                    <div className='m-5'>
+                        <h1 className="text-uppercase">Mon offre de services</h1>
+                        <p>Voici les prestations sur lesquelles je peux intervenir.</p>
+                    </div>
+                   
                 </div>
                 <div className="m-5 row text-center">
                     <div className="CardService col card m-3 p-5" style={{width: "18rem"}}>

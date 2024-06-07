@@ -29,10 +29,10 @@ const Footer=() =>{
                         <strong className="p-2">Liens utiles</strong>
                         <ul>
                             <li><a className="nav-link active" aria-current="page" href="/">Accueil</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="#about">A propos</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/#about">A propos</a></li>
                             <li><a className="nav-link active" aria-current="page" href="/Service">Services</a></li>
                             <li><a className="nav-link active" aria-current="page" href="/Contact">Me contacter</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="git ">Mentions légales</a></li>
+                            <li><a className="nav-link active" aria-current="page" href="/LegalNotice">Mentions légales</a></li>
                         </ul>
                     </div>
                     <div className="col">

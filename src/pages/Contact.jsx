@@ -15,7 +15,7 @@ const Contact=() =>{
             <main className='MainContact p-5'>
                 <div className='card p-5'>
                     <div className="TitleContact">
-                        <div className='text-center'>
+                        <div className='text-center m-5'>
                             <h1 className="text-uppercase">Me contacter</h1>
                             <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
                         </div>
