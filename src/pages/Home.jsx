@@ -40,7 +40,7 @@ const Home =() =>{
                             </div>
                         </div>
                         <div className="Competences col align-items m-2 p-4">
-                                <img src="./public/img/about.jpg" className="img-fluid" alt="About"></img>
+                                <img src="../img/about.jpg" className="img-fluid" alt="About"></img>
                             <h3>Mes compétences</h3>
                             <div className="m-2">
                                 <p>HTML5 90%</p>
