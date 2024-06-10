@@ -1,4 +1,4 @@
-import '../style/style.css'
+import '../style/style.css';
 import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
@@ -12,7 +12,7 @@ const Blog=() =>{
             <main>
                 <div>
                     <div className="TitleBlog text-center">
-                        <img src="../../public/img/banner.jpg" className="img-fluid"></img>
+                        <img src="./public/img/banner.jpg" className="img-fluid"></img>
                         <div className='m-5'>
                             <h1 className="uppercase">Blog</h1>
                             <p> Retrouvez ici quelues articles sur le développement web.</p>
@@ -21,7 +21,7 @@ const Blog=() =>{
                     <div className="Blog">
                         <div className="m-5 row text-start">
                             <div className="col card m-3 p-0" id="html" style={{width: "18rem"}}>
-                                <img src="../../public/img/blog/coder.jpg" className="card-img-top" alt="Coder son site en HTML/CSS"></img>
+                                <img src="./public/img/blog/coder.jpg" className="card-img-top" alt="Coder son site en HTML/CSS"></img>
                                 <div class="card-body p-0">
                                     <div className="p-3">
                                         <h2 className="card-title">Coder son site en HTML/CSS</h2>
@@ -34,7 +34,7 @@ const Blog=() =>{
                                 </div>
                             </div>
                             <div className="col card m-3 p-0" id="sell" style={{width: "18rem"}}>
-                                <img src="../../public\img\blog\croissance.jpg" className="card-img-top" alt="Vendre ses produits sur le web"></img>
+                                <img src="./public/img/blog/croissance.jpg" className="card-img-top" alt="Vendre ses produits sur le web"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
                                         <h2 className="card-title">Vendre ses produits sur le web</h2>
@@ -47,7 +47,7 @@ const Blog=() =>{
                                 </div>
                             </div>
                             <div className="col card m-3 p-0" id="google" style={{width: "18rem"}}>
-                                <img src="../../public\img\blog\google.jpg" className="card-img-top" alt="Se positionner sur Google"></img>
+                                <img src="./public/img/blog/google.jpg" className="card-img-top" alt="Se positionner sur Google"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
                                         <h2 className="card-title">Se positionner sur Google</h2>
@@ -62,7 +62,7 @@ const Blog=() =>{
                         </div>
                         <div className="m-5 row text-start">
                             <div className="col card m-3 p-0" id="responsive" style={{width: "18rem"}}>
-                                <img src="../../public\img\blog\screens.jpg" className="card-img-top" alt="Coder en responsive design"></img>
+                                <img src="./public/img/blog/screens.jpg" className="card-img-top" alt="Coder en responsive design"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
                                         <h2 className="card-title">Coder en responsive design</h2>
@@ -75,7 +75,7 @@ const Blog=() =>{
                                 </div>
                             </div>
                             <div className="col card m-3 p-0" id="referencement" style={{width: "18rem"}}>
-                                <img src="../../public\img\blog\seo.jpg" className="card-img-top" alt="Techniques de référencement"></img>
+                                <img src="./public/img/blog/seo.jpg" className="card-img-top" alt="Techniques de référencement"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
                                         <h2 className="card-title">Techniques de référencement</h2>
@@ -88,7 +88,7 @@ const Blog=() =>{
                                 </div>
                             </div>
                             <div className="col card m-3 p-0" id="learn" style={{width: "18rem"}}>
-                                <img src="../../public\img\blog\technos.png" className="card-img-top" alt="Apprendre à coder"></img>
+                                <img src="./public/img/blog/technos.png" className="card-img-top" alt="Apprendre à coder"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
                                         <h2 className="card-title">Apprendre à coder</h2>

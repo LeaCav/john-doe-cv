@@ -8,7 +8,7 @@
 
 /*Accueil*/
 .BgImage{
-  background-image: url('/public/img/hero-bg.jpg');
+  background-image: url('/src/img/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@
 
 /*Contact*/
 .MainContact{
-  background-image: url('/public/img/contact-bg.jpg');
+  background-image: url('/src/img/contact-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

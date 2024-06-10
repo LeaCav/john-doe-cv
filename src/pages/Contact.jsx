@@ -1,12 +1,38 @@
-import '../style/style.css'
-import React from "react";
+import '../style/style.css';
+import React, {useState} from "react";
+import emailjs from "@emailjs/browser";
 import Header from "../Header";
 import Footer from "../Footer";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
-
 const Contact=() =>{
+    const [formData, setFormData] = useState({
+        name: '',
+        mail: '',
+        phone: '',
+        subject: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const {id, value} = e.target;
+        setFormData({...formData, [id]: value});
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs.send('service_s94ulyo', 'template_8sxobrs', e.target, {
+            publicKey: 'ohq-y7mx_9_PriA1O',
+        })
+        .then((response) => {
+            console.log('SUCCESS !', response.status, response.text);
+        }, (err) => {
+            console.log('FAILED...', err);
+        });
+    };
+
     return(
         <div>
             <header>
@@ -23,21 +49,21 @@ const Contact=() =>{
                     <div className='row'>
                         <div className='col'>
                             <h2>Formulaire de contact</h2>
-                            <div className='Form p-3'>
+                            <div className='Form p-3' onSubmit={handleSubmit}>
                                 <div className="mb-3">
-                                    <input type="email" className="form-control" id="name" placeholder="Votre nom"></input>
+                                    <input type="email" className="form-control" id="name" placeholder="Votre nom" value={formData.name} onChange={handleChange} required></input>
                                 </div>
                                 <div className="mb-3">
-                                    <input type="email" className="form-control" id="mail" placeholder="Votre adresse email"></input>
+                                    <input type="email" className="form-control" id="mail" placeholder="Votre adresse email" value={formData.mail} onChange={handleChange} required></input>
                                 </div>
                                 <div className="mb-3">
-                                    <input type="email" className="form-control" id="phone" placeholder="Votre numéro de téléphone"></input>
+                                    <input type="email" className="form-control" id="phone" placeholder="Votre numéro de téléphone" value={formData.phone} onChange={handleChange} required></input>
                                 </div>
                                 <div className="mb-3">
-                                    <input type="email" className="form-control" id="Subject" placeholder="Sujet"></input>
+                                    <input type="email" className="form-control" id="subject" placeholder="Sujet" value={formData.subject} onChange={handleChange} required></input>
                                 </div>
                                 <div className="mb-3">
-                                    <textarea className="form-control" id="message" rows="6" placeholder='Votre message'></textarea>
+                                    <textarea className="form-control" id="message" rows="6" placeholder='Votre message' value={formData.message} onChange={handleChange} required></textarea>
                                 </div>
                                 <div className="text-center">
                                     <button class="btn btn-primary" type="submit">Envoyer</button>

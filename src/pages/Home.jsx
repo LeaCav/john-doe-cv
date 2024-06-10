@@ -1,4 +1,4 @@
-import '../style/style.css'
+import '../style/style.css';
 import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
@@ -40,7 +40,7 @@ const Home =() =>{
                             </div>
                         </div>
                         <div className="Competences col align-items m-2 p-4">
-                                <img src="../../public/img/about.jpg" className="img-fluid" alt="About"></img>
+                                <img src="./public/img/about.jpg" className="img-fluid" alt="About"></img>
                             <h3>Mes compétences</h3>
                             <div className="m-2">
                                 <p>HTML5 90%</p>

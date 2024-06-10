@@ -1,4 +1,4 @@
-import '../style/style.css'
+import '../style/style.css';
 import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
@@ -14,7 +14,7 @@ const Service=() =>{
             </header>
             <main>
                 <div className="TitleService text-center">
-                    <img src="../../public/img/banner.jpg" className="img-fluid"></img>
+                    <img src="./public/img/banner.jpg" className="img-fluid"></img>
                     <div className='m-5'>
                         <h1 className="text-uppercase">Mon offre de services</h1>
                         <p>Voici les prestations sur lesquelles je peux intervenir.</p>
