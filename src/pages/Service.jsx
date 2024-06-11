@@ -10,7 +10,7 @@ const Service=() =>{
     return(
         <div>
             <header>
-                <Header/>
+                <Header />
             </header>
             <main>
                 <div className="TitleService text-center">

@@ -18,8 +18,8 @@ const Realization=() =>{
                             <p>Voici quelques-unes de mes réalisations.</p>
                         </div>
                     </div>
-                    <div className="Portfolio m-5 row text-center">
-                        <div className="col card m-3 p-0" id="freshfood" style={{width: "18rem"}}>
+                    <div className="Portfolio m-5 row text-center align-items-start justify-content-md-center">
+                        <div className="col-sm-6 card m-3 p-0" id="freshfood" style={{width: "25rem"}}>
                             <img src="../img/portfolio/fresh-food.jpg" className="card-img-top" alt="Fresh food"></img>
                             <div className="card-body p-0">
                                 <h2 className="card-title">Fresh food</h2>
@@ -30,7 +30,7 @@ const Realization=() =>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col card m-3 p-0" id="akira" style={{width: "18rem"}}>
+                        <div className="col-sm-6 card m-3 p-0" id="akira" style={{width: "25rem"}}>
                             <img src="../img/portfolio/restaurant-japonais.jpg" className="card-img-top" alt="Restaurant Akira"></img>
                             <div className="card-body p-0">
                                 <h2 className="card-title">Restaurant Akira</h2>
@@ -41,7 +41,7 @@ const Realization=() =>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col card m-3 p-0" id="bienetre" style={{width: "18rem"}}>
+                        <div className="col-sm-6 card m-3 p-0" id="bienetre" style={{width: "25rem"}}>
                             <img src="../img/portfolio/espace-bien-etre.jpg" className="card-img-top" alt="Espace bien-être"></img>
                             <div className="card-body p-0">
                                 <h2 className="card-title">Espace bien-être</h2>

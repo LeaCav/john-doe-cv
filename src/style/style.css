@@ -1,3 +1,17 @@
+
+@font-face {
+  font-family: 'NunitoSans';
+  src:url(/public/fonts/NunitoSans-Medium.woff2), url(/public/fonts/NunitoSans-Medium.ttf);
+}
+
+*{
+font-family: 'NunitoSans';
+font-size: 400;
+}
+h1, h2, h3, h4, h5, strong{
+  font-size: 600;
+}
+
 /*Header*/
 .NavBar{
   background-color: #444;
@@ -15,16 +29,16 @@
   height:800px;
   }
 .Opacity{
-  padding: 240px 0;
-  background-size: cover;
-  background-color: black;
-  Opacity: 0.3;
+  background-color: rgba(0, 0, 0, 0.3);
   height:800px;
 }
-.Opacity h1{
+.TitleHome{
+  padding-top: 250px;
+}
+.TitleHome h1{
   font-size: 4rem;
 }
-.Opacity h2{
+.TitleHome h2{
   font-size: 2rem;
 }
 .About{
