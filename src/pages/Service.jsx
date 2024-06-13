@@ -18,6 +18,7 @@ const Service=() =>{
                     <div className='m-5'>
                         <h1 className="text-uppercase">Mon offre de services</h1>
                         <p>Voici les prestations sur lesquelles je peux intervenir.</p>
+                        <hr className='border border-primary border-3 opacity-100 d-flex mx-auto' style={{width: "200px"}}/>
                     </div>
                    
                 </div>

@@ -25,7 +25,8 @@ const Home =() =>{
                     <div className="AboutShadow row p-3">
                         <div className=" col align-items m-2 p-4">
                             <h3>A propos</h3>
-                            <div className="AboutTitle">
+                            <hr className='border border-primary opacity-100'/>
+                            <div>
                                 <p>
                                     <br></br>
                                     Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'

@@ -49,10 +49,6 @@ h1, h2, h3, h4, h5, strong{
   margin: auto;
   box-shadow: 0px 4px 7px 0px #C6C6C6;
 }
-.AboutTitle{
-  border-top: solid #0D6EFD ;
-}
-
 
 /*Service*/
 .CardService{
@@ -65,10 +61,8 @@ h1, h2, h3, h4, h5, strong{
   font-size: 3rem;
 }
 
-/*Realization*/
-.Border{
-  border: solid 2px #0D6EFD;
-}
+/*Portfolio*/
+
 
 /*Blog*/
 
@@ -80,11 +74,9 @@ h1, h2, h3, h4, h5, strong{
   background-position: center;
   background-repeat: no-repeat;
 }
-.Form, .Map{
-  border-top: solid #0D6EFD;
-}
 
 /*LegalNotice*/
+
 
 /*Footer*/
 .LinkIcon{

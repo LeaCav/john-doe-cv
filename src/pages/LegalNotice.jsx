@@ -18,6 +18,7 @@ const LegalNotice=() =>{
                     <div className="TitleContact">
                         <div className='text-center m-5'>
                             <h1 className="text-uppercase">Mentions légales</h1>
+                            <hr className='border border-primary border-3 opacity-100 d-flex mx-auto' style={{width: "200px"}}/>
                         </div>
                     </div>
                     <div className="accordion m-5" id="accordionPanelsStayOpenExample">

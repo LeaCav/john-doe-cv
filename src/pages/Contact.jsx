@@ -44,11 +44,13 @@ const Contact=() =>{
                         <div className='text-center m-5'>
                             <h1 className="text-uppercase">Me contacter</h1>
                             <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
+                            <hr className='border border-primary border-3 opacity-100 d-flex mx-auto' style={{width: "200px"}}/>
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col'>
                             <h2>Formulaire de contact</h2>
+                            <hr className='border border-primary opacity-100'/>
                             <div className='Form p-3' onSubmit={handleSubmit}>
                                 <div className="mb-3">
                                     <input type="email" className="form-control" id="name" placeholder="Votre nom" value={formData.name} onChange={handleChange} required></input>
@@ -72,7 +74,8 @@ const Contact=() =>{
                         </div>
                         <div className='col'>
                             <h2>Mes coordonnées</h2>
-                            <div className='Map p-3'>
+                            <hr className='border border-primary opacity-100'/>
+                            <div className='p-3'>
                                 <address>
                                     <FaMapMarkerAlt /> 40 Rue Laure Diebold, 69009 Lyon, France <br></br>
                                     <MdOutlinePhoneAndroid /> <a href="tel:0620304050" className="text-decoration-none text-dark">06 20 30 40 50</a>

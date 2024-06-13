@@ -6,11 +6,15 @@ const Header=() =>{
         <div className="NavBar">
              <nav className="navbar navbar-expand-lg navbar-dark p-3 text-uppercase" id="navbar">
                 <div className="container-fluid d-flex">
-                    <div className="text-center">
-                        <a className="navbar-brand" href="#">John Doe</a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
+                    <div className="row row-cols-2">
+                        <div className="col">
+                            <a className="navbar-brand" href="#">John Doe</a>
+                        </div>
+                        <div className="col ms-auto">
+                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
+                            </button>
+                        </div>      
                     </div>
                     <div className="NavLink">
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -22,7 +26,7 @@ const Header=() =>{
                                     <a className="nav-link" href="/Service">Services</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/Realization">Réalisations</a>
+                                    <a className="nav-link" href="/Portfolio">Réalisations</a>
                                 </li>
                                 <li className="nav-item"> 
                                     <a className="nav-link" href="/Blog">Blog</a>

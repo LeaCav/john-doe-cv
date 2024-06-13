@@ -16,6 +16,7 @@ const Blog=() =>{
                         <div className='m-5'>
                             <h1 className="text-uppercase">Blog</h1>
                             <p> Retrouvez ici quelques articles sur le développement web.</p>
+                            <hr className='border border-primary border-3 opacity-100 d-flex mx-auto' style={{width: "200px"}}/>
                         </div>
                     </div>
                     <div className="Blog m-5">

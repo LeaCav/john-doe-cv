@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 
-const Realization=() =>{
+const Portfolio=() =>{
     return(
         <div>
             <header>
@@ -16,7 +16,9 @@ const Realization=() =>{
                         <div className='m-5'>
                             <h1 className="text-uppercase">Portfolio</h1>
                             <p>Voici quelques-unes de mes réalisations.</p>
+                            <hr className='border border-primary border-3 opacity-100 d-flex mx-auto' style={{width: "200px"}}/>
                         </div>
+
                     </div>
                     <div className="Portfolio m-5 row text-center align-items-start justify-content-md-center">
                         <div className="col-sm-6 card m-3 p-0" id="freshfood" style={{width: "25rem"}}>
@@ -62,4 +64,4 @@ const Realization=() =>{
     )
 };
 
-export default Realization;
+export default Portfolio;
