@@ -5,29 +5,37 @@
 }
 
 *{
-font-family: 'NunitoSans';
-font-size: 400;
+  font-family: 'NunitoSans';
+  font-size: 400;
 }
-h1, h2, h3, h4, h5, strong{
+h1, h2, h3, h4, h5, h6{
   font-size: 600;
+  color: #1e1e1e;
+}
+strong{
+  font-size: 600;
+  color: black;
+}
+.HomePage, .ServicePage, .PortfolioPage, .BlogPage, .ContactPage, .LegalNoticePage, .Footer{
+  color: #444;
+}
+.TopOfPage:hover{
+  background-color: #298eff;
 }
 
 /*Header*/
 .NavBar{
   background-color: #444;
 }
-.Footer{
-  background-color: #EEEEEE;
-}
 
-/*Accueil*/
+/*Home*/
 .BgImage{
   background-image: url('/public/img/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height:800px;
-  }
+}
 .Opacity{
   background-color: rgba(0, 0, 0, 0.3);
   height:800px;
@@ -37,9 +45,11 @@ h1, h2, h3, h4, h5, strong{
 }
 .TitleHome h1{
   font-size: 4rem;
+  color: white;
 }
 .TitleHome h2{
   font-size: 2rem;
+  color: white;
 }
 .About{
   display: flex;
@@ -60,6 +70,11 @@ h1, h2, h3, h4, h5, strong{
   color: #0D6EFD;
   font-size: 3rem;
 }
+.CardService:hover{
+  .Icon{
+    color: #cde1f8;
+  }
+}
 
 /*Portfolio*/
 
@@ -74,12 +89,31 @@ h1, h2, h3, h4, h5, strong{
   background-position: center;
   background-repeat: no-repeat;
 }
+.Blue{
+  background-color: rgba(0, 105, 255, 0.5);
+}
 
 /*LegalNotice*/
 
 
 /*Footer*/
+.Footer{
+  background-color: #EEEEEE;
+}
 .LinkIcon{
+  color: white;
+}
+.LinkIcon :hover{
+  opacity: 0.8;
+}
+.LinkIcon .Icon{
   color: #444;
   font-size: 2rem;
+}
+.Link{
+  color:#444 ;
+}
+.Link:hover{
+  color: white;
+  opacity: 0.8;
 }

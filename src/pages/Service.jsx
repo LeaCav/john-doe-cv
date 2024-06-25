@@ -9,10 +9,17 @@ import { FaSearchDollar, FaDesktop } from "react-icons/fa";
 const Service=() =>{
     return(
         <div>
-            <header>
+            <a className="text-decoration-none" style={{color:'white'}} href='/Service'>
+                <button type="button" className="TopOfPage btn btn-primary float-end position-fixed m-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"/>
+                    </svg>
+                </button>
+            </a>
+            <header className='position-relative'>
                 <Header />
             </header>
-            <main>
+            <main className='ServicePage'>
                 <div className="TitleService text-center">
                     <img src="../img/banner.jpg" className="img-fluid"></img>
                     <div className='m-5'>
@@ -20,14 +27,13 @@ const Service=() =>{
                         <p>Voici les prestations sur lesquelles je peux intervenir.</p>
                         <hr className='border border-primary border-3 opacity-100 d-flex mx-auto' style={{width: "200px"}}/>
                     </div>
-                   
                 </div>
                 <div className="m-5 row text-center">
                     <div className="CardService col card m-3 p-5" style={{width: "18rem"}}>
                         <FaDesktop className="Icon mx-auto m-3"/>
                         <div className="card-body p-0">
                             <h2 className="card-title text-uppercase">UX design</h2>
-                            <p className="card-text">L'<strong>UX Design</strong> est une méthode dec onception centrée sur l'utilisateur.
+                            <p className="card-text">L'<strong>UX Design</strong> est une méthode de conception centrée sur l'utilisateur.
                             Son but est d'offrir une expérience de navigation optimale à l'internaute.</p>
                         </div>
                     </div>

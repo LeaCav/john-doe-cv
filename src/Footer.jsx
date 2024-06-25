@@ -12,45 +12,72 @@ const Footer=() =>{
                         <strong>John Doe</strong>
                         <address>40 Rue Laure Diebold <br></br>
                         69009 Lyon, France <br></br>
-                        <a href="tel:0620304050" className="text-decoration-none text-dark">Téléphone : 06 20 30 40 50</a></address>
+                        <a href="tel:0620304050" className="text-decoration-none" style={{color:'#444'}}>Téléphone : 06 20 30 40 50</a></address>
                         <div className="Logo">
-                            <a href="https://github.com/" target="_blank" className="p-2">
-                                <BiLogoGithub className="LinkIcon"/>
+                            <a href="https://api.github.com/users/github-john-doe" target="_blank" className="LinkIcon p-2">
+                                <BiLogoGithub className="Icon"/>
                             </a>
-                            <a href="https://x.com/" target="_blank" className="p-2">
-                                <FaTwitterSquare className="LinkIcon"/>
+                            <a href="https://x.com/" target="_blank" className="LinkIcon p-2">
+                                <FaTwitterSquare className="Icon"/>
                             </a>
-                            <a href="https://www.linkedin.com/" target="_blank" className="p-2">
-                                <FaLinkedin className="LinkIcon"/>
+                            <a href="https://www.linkedin.com/" target="_blank" className="LinkIcon p-2">
+                                <FaLinkedin className="Icon"/>
                             </a>
                         </div>
                     </div>
-                    <div className="col">
-                        <strong className="p-2">Liens utiles</strong>
-                        <ul>
-                            <li><a className="nav-link active" aria-current="page" href="/">Accueil</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="/#about">A propos</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="/Service">Services</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="/Contact">Me contacter</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="/LegalNotice">Mentions légales</a></li>
-                        </ul>
-                    </div>
-                    <div className="col">
-                        <strong className="p-2">Mes dernières réalisations</strong>
-                        <ul>
-                            <li><a className="nav-link active" aria-current="page" href="/realization/#freshfood">Fresh food</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="/realization/#akira">Restaurant Akira</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="/realization/#bienetre">Espace bien-être</a></li>
-                        </ul>
-                    </div>
-                    <div className="col">
-                        <strong className="p-2">Mes derniers articles</strong>
-                        <ul>
-                            <li><a className="nav-link active" aria-current="page" href="/blog/#html">Coder son site en HTML/CSS</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="/blog/#sell">Vendre ses produits sur le web</a></li>
-                            <li><a className="nav-link active" aria-current="page" href="/blog/#google">Se positionner sur Google</a></li>
-                        </ul>
-                    </div>
+                    <nav className="navbar col">
+                        <div>
+                            <strong className="p-2">Liens utiles</strong>
+                            <ul className="navbar-nav row">
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/">Accueil</a></li>
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/#about">A propos</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/Service">Services</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/Contact">Me contacter</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/LegalNotice">Mentions légales</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>       
+                    <nav className="navbar col">
+                        <div>
+                            <strong className="p-2">Mes dernières réalisations</strong>
+                            <ul className="navbar-nav row">
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/realization/#freshfood">Fresh food</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/realization/#akira">Restaurant Akira</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/realization/#bienetre">Espace bien-être</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <nav className="navbar col">
+                        <div>
+                            <strong className="p-2">Mes derniers articles</strong>
+                            <ul className="navbar-nav row">
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/blog/#html">Coder son site en HTML/CSS</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/blog/#sell">Vendre ses produits sur le web</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/blog/#google">Se positionner sur Google</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
             <div className="text-center text-light bg-dark m-0">
