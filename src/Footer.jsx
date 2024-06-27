@@ -14,7 +14,7 @@ const Footer=() =>{
                         69009 Lyon, France <br></br>
                         <a href="tel:0620304050" className="text-decoration-none" style={{color:'#444'}}>Téléphone : 06 20 30 40 50</a></address>
                         <div className="Logo">
-                            <a href="https://api.github.com/users/github-john-doe" target="_blank" className="LinkIcon p-2">
+                            <a href="/Github" target="_blank" className="LinkIcon p-2">
                                 <BiLogoGithub className="Icon"/>
                             </a>
                             <a href="https://x.com/" target="_blank" className="LinkIcon p-2">

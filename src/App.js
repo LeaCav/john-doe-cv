@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import LegalNotice from './pages/LegalNotice';
+import Github from './pages/GitHub/Github';
 
 function App() {
     return(
@@ -17,9 +18,9 @@ function App() {
                 <Route path='/Blog' element={<Blog/>} />
                 <Route path='/Contact' element={<Contact/>} />
                 <Route path='/LegalNotice' element={<LegalNotice/>} />
+                <Route path='/Github' element={<Github/>} />
             </Routes>
         </div>
     )
 };
-
 export default App;
