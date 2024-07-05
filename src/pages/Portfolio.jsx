@@ -27,37 +27,43 @@ const Portfolio=() =>{
                         </div>
 
                     </div>
-                    <div className="Portfolio m-5 row text-center align-items-start justify-content-md-center">
-                        <div className="col-sm-6 card m-3 p-0" id="freshfood" style={{width: "25rem"}}>
-                            <img src="../img/portfolio/fresh-food.jpg" className="card-img-top" alt="Fresh food"></img>
-                            <div className="card-body p-0">
-                                <h2 className="card-title">Fresh food</h2>
-                                <p className="card-text">Réalisation d'un site avec commande en ligne.</p>
-                                <a href="" className="btn btn-outline-primary m-3">Voir</a>
-                                <div className="card-footer">
+                    <div className="Portfolio m-5 row text-center align-items-stretch justify-content-center">
+                        <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                            <div className="card m-3 p-0" id="freshfood" style={{width: "100%"}}>
+                                <img src="../img/portfolio/fresh-food.jpg" className="card-img-top" alt="Fresh food"></img>
+                                <div className="card-body p-0">
+                                    <h2 className="card-title">Fresh food</h2>
+                                    <p className="card-text">Réalisation d'un site avec commande en ligne.</p>
+                                    <a href="" className="btn btn-outline-primary m-3">Voir</a>
+                                    <div className="card-footer">
                                     <p className="align-middle m-0">Site réalisé avec PHP et MySQL</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6 card m-3 p-0" id="akira" style={{width: "25rem"}}>
-                            <img src="../img/portfolio/restaurant-japonais.jpg" className="card-img-top" alt="Restaurant Akira"></img>
-                            <div className="card-body p-0">
-                                <h2 className="card-title">Restaurant Akira</h2>
-                                <p className="card-text">Réalisation d'un site vitrine.</p>
-                                <a href="" className="btn btn-outline-primary m-3">Voir</a>
-                                <div className="card-footer">
-                                    <p className="align-middle m-0">Site réalisé avec WordPress</p>
+                        <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                            <div className="card m-3 p-0" id="akira" style={{width: "100%"}}>
+                                <img src="../img/portfolio/restaurant-japonais.jpg" className="card-img-top" alt="Restaurant Akira"></img>
+                                <div className="card-body p-0">
+                                    <h2 className="card-title">Restaurant Akira</h2>
+                                    <p className="card-text">Réalisation d'un site vitrine.</p>
+                                    <a href="" className="btn btn-outline-primary m-3">Voir</a>
+                                    <div className="card-footer">
+                                        <p className="align-middle m-0">Site réalisé avec WordPress</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6 card m-3 p-0" id="bienetre" style={{width: "25rem"}}>
-                            <img src="../img/portfolio/espace-bien-etre.jpg" className="card-img-top" alt="Espace bien-être"></img>
-                            <div className="card-body p-0">
-                                <h2 className="card-title">Espace bien-être</h2>
-                                <p className="card-text">Réalisation d'un site vitrine pour un praticien de bien-être.</p>
-                                <a href="" className="btn btn-outline-primary m-3">Voir</a>
-                                <div className="card-footer">
-                                    <p className="align-middle m-0">Site réalisé en HTML/CSS</p>
+                        <div className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                            <div className="card m-3 p-0" id="bienetre" style={{width: "100%"}}>
+                                <img src="../img/portfolio/espace-bien-etre.jpg" className="card-img-top" alt="Espace bien-être"></img>
+                                <div className="card-body p-0">
+                                    <h2 className="card-title">Espace bien-être</h2>
+                                    <p className="card-text">Réalisation d'un site vitrine pour un praticien de bien-être.</p>
+                                    <a href="" className="btn btn-outline-primary m-3">Voir</a>
+                                    <div className="card-footer">
+                                        <p className="align-middle m-0">Site réalisé en HTML/CSS</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

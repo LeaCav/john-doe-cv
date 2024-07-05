@@ -26,6 +26,21 @@ strong{
 /*Header*/
 .NavBar{
   background-color: #444;
+  position: relative;
+}
+.navbar-brand{
+  margin-right: auto;
+}
+.navbar-toggler {
+  margin-left: auto;
+}
+.collapse navbar-collapse {
+  text-align: left;
+}
+@media (min-width: 992px) {
+  .NavBar .navbar-nav {
+      margin-left: 800px;
+  }
 }
 
 /*Home*/
@@ -92,6 +107,19 @@ strong{
 .Blue{
   background-color: rgba(0, 105, 255, 0.5);
 }
+.MapResponsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.MapResponsive iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
 /*LegalNotice*/
 
@@ -116,4 +144,10 @@ strong{
 .Link:hover{
   color: white;
   opacity: 0.8;
+}
+@media (min-width: 768px) {
+  .row-cols-md-3>* {
+      flex: 0 0 auto;
+      width: 25%;
+  }
 }

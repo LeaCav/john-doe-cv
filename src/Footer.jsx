@@ -7,7 +7,7 @@ const Footer=() =>{
     return(
         <div className="Footer">
             <div className="container text-start p-5">
-                <div className="row align-items-start">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 align-items-start">
                     <div className="col">
                         <strong>John Doe</strong>
                         <address>40 Rue Laure Diebold <br></br>
@@ -25,10 +25,10 @@ const Footer=() =>{
                             </a>
                         </div>
                     </div>
-                    <nav className="navbar col">
+                    <nav className="col">
                         <div>
                             <strong className="p-2">Liens utiles</strong>
-                            <ul className="navbar-nav row">
+                            <ul className="navbar-nav col">
                                 <li className="nav-item">
                                     <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/">Accueil</a></li>
                                 <li className="nav-item">
@@ -46,10 +46,10 @@ const Footer=() =>{
                             </ul>
                         </div>
                     </nav>       
-                    <nav className="navbar col">
+                    <nav className="col">
                         <div>
                             <strong className="p-2">Mes dernières réalisations</strong>
-                            <ul className="navbar-nav row">
+                            <ul className="navbar-nav col">
                                 <li className="nav-item">
                                     <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/realization/#freshfood">Fresh food</a>
                                 </li>
@@ -62,10 +62,10 @@ const Footer=() =>{
                             </ul>
                         </div>
                     </nav>
-                    <nav className="navbar col">
+                    <nav className="col">
                         <div>
                             <strong className="p-2">Mes derniers articles</strong>
-                            <ul className="navbar-nav row">
+                            <ul className="navbar-nav col">
                                 <li className="nav-item">
                                     <a className="Link text-decoration-none p-0 ps-4" aria-current="page" href="/blog/#html">Coder son site en HTML/CSS</a>
                                 </li>

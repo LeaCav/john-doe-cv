@@ -28,8 +28,9 @@ const Service=() =>{
                         <hr className='border border-primary border-3 opacity-100 d-flex mx-auto' style={{width: "200px"}}/>
                     </div>
                 </div>
-                <div className="m-5 row text-center">
-                    <div className="CardService col card m-3 p-5" style={{width: "18rem"}}>
+                <div className="row row-cols-1 row-cols-md-3 row-cols-lg-3 text-center justify-content-center">
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex">
+                    <div className="CardService col card m-2 p-3" style={{width: "100%"}}>
                         <FaDesktop className="Icon mx-auto m-3"/>
                         <div className="card-body p-0">
                             <h2 className="card-title text-uppercase">UX design</h2>
@@ -37,7 +38,9 @@ const Service=() =>{
                             Son but est d'offrir une expérience de navigation optimale à l'internaute.</p>
                         </div>
                     </div>
-                    <div className="CardService col card m-3 p-5" style={{width: "18rem"}}>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex ">
+                    <div className="CardService col card m-2 p-3" style={{width: "100%"}}>
                         <BsFileEarmarkCodeFill className="Icon mx-auto m-3"/>
                         <div className="card-body p-0">
                             <h2 className="card-title text-uppercase">Développement web</h2>
@@ -45,7 +48,9 @@ const Service=() =>{
                             HTML, CSS, JavaScript et PHP.</p>
                         </div>
                     </div>
-                    <div className="CardService col card m-3 p-5" id="bienetre" style={{width: "18rem"}}>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex">
+                    <div className="CardService col card m-2 p-3" id="bienetre" style={{width: "100%"}}>
                         <FaSearchDollar className="Icon mx-auto m-3"/>
                         <div class="card-body p-0">
                             <h2 className="card-title text-uppercase">Référencement</h2>
@@ -53,6 +58,7 @@ const Service=() =>{
                                 des techniques en oeuvre pour <i>améliorer sa position</i> dans les résultats des moteurs de recherche.</p>
                         </div>
                     </div>
+                </div>
                 </div>
             </main>
             <footer>

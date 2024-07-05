@@ -13,7 +13,7 @@ const GitUser = () => {
             <p>Créé le : <time dateTime='2016-06-09T17:14:00Z'></time>2016-06-09T17:14:00Z</p>
             <p>Modifié le : <time dateTime='2021-10-12T05:01:09Z'>2021-10-12T05:01:09Z</time></p>
             <p>URL repositories : 
-                <a href='http://api.github.com/users/github-john-doe/repos'>http://api.github.com/users/github-john-doe/repos</a>
+                <a href='http://api.github.com/users/github-john-doe'>http://api.github.com/users/github-john-doe</a>
             </p>
         </div>
     )

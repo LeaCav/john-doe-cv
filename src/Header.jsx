@@ -12,37 +12,29 @@ const Header=() =>{
     return (
         <div className="NavBar">
              <nav className="navbar navbar-expand-lg navbar-dark p-3 text-uppercase" id="navbar">
-                <div className="container-fluid d-flex">
-                    <div className="row row-cols-2">
-                        <div className="col">
-                            <Link className="navbar-brand" to="/">John Doe</Link>
-                        </div>
-                        <div className="col ms-auto d-flex justify-content-end">
-                            <button className="navbar-toggler"  data-mdb-right="true" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
-                            </button>
-                        </div>      
-                    </div>
-                    <div className="NavLink">
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                    <Link className={isActive("/")} to="/">Accueil</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className={isActive("/Service")} to="/Service">Services</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className={isActive("/Portfolio")} to="/Portfolio">Réalisations</Link>
-                                </li>
-                                <li className="nav-item"> 
-                                    <Link className={isActive("/Blog")} to="/Blog">Blog</Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className={isActive("/Contact")} to="/Contact">Me contacter</Link>
-                                </li>
-                            </ul>
-                        </div>
+                <div className="container-fluid">
+                    <Link className="navbar-brand" to="/">John Doe</Link>
+                    <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className={isActive("/")} to="/">Accueil</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={isActive("/Service")} to="/Service">Services</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={isActive("/Portfolio")} to="/Portfolio">Réalisations</Link>
+                            </li>
+                            <li className="nav-item"> 
+                                <Link className={isActive("/Blog")} to="/Blog">Blog</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={isActive("/Contact")} to="/Contact">Me contacter</Link>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -51,3 +43,9 @@ const Header=() =>{
 };
 
 export default Header;
+/*ligne 15 <div className="container-fluid d-flex"> */
+/*après la ligne 15     <div className="row row-cols-2">
+                        <div className="col"> */
+/*ligne 19 <div className="col ms-auto d-flex justify-content-end"> */
+/*ligne 21 button : data-mdb-right="true" */
+/*<div className="NavLink"> au dessus de : <div className="collapse navbar-collapse" id="navbarSupportedContent">*/

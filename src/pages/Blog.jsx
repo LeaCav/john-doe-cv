@@ -27,7 +27,7 @@ const Blog=() =>{
                         </div>
                     </div>
                     <div className="Blog m-5">
-                        <div className="row row-cols-1 row-cols-md-3 text-start align-items-start justify-content-md-center">
+                        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-start align-items-start justify-content-md-center">
                             <div className='col card m-3 p-0' id="html" style={{width: "21rem"}}>
                                 <img src="../img/blog/coder.jpg" className="card-img-top" alt="Coder son site en HTML/CSS"></img>
                                 <div class="card-body p-0">
@@ -41,7 +41,7 @@ const Blog=() =>{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col card m-3 p-0" id="sell" style={{width: "21rem"}}>
+                            <div className='col card m-3 p-0' id="sell" style={{width: "21rem"}}>
                                 <img src="../img/blog/croissance.jpg" className="card-img-top" alt="Vendre ses produits sur le web"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
@@ -54,7 +54,7 @@ const Blog=() =>{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col card m-3 p-0" id="google" style={{width: "21rem"}}>
+                            <div className='col card m-3 p-0' id="google" style={{width: "21rem"}}>
                                 <img src="../img/blog/google.jpg" className="card-img-top" alt="Se positionner sur Google"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
@@ -67,7 +67,7 @@ const Blog=() =>{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col card m-3 p-0" id="responsive" style={{width: "21rem"}}>
+                            <div className='col card m-3 p-0' id="responsive" style={{width: "21rem"}}>
                                 <img src="../img/blog/screens.jpg" className="card-img-top" alt="Coder en responsive design"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
@@ -80,7 +80,7 @@ const Blog=() =>{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col card m-3 p-0" id="referencement" style={{width: "21rem"}}>
+                            <div className='col card m-3 p-0' id="referencement" style={{width: "21rem"}}>
                                 <img src="../img/blog/seo.jpg" className="card-img-top" alt="Techniques de référencement"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
@@ -93,7 +93,7 @@ const Blog=() =>{
                                     </div>
                                 </div>
                             </div>
-                            <div className="col card m-3 p-0" id="learn" style={{width: "21rem"}}>
+                            <div className='col card m-3 p-0' id="learn" style={{width: "21rem"}}>
                                 <img src="../img/blog/technos.png" className="card-img-top" alt="Apprendre à coder"></img>
                                 <div className="card-body p-0">
                                     <div className="p-3">
