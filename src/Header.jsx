@@ -43,9 +43,3 @@ const Header=() =>{
 };
 
 export default Header;
-/*ligne 15 <div className="container-fluid d-flex"> */
-/*après la ligne 15     <div className="row row-cols-2">
-                        <div className="col"> */
-/*ligne 19 <div className="col ms-auto d-flex justify-content-end"> */
-/*ligne 21 button : data-mdb-right="true" */
-/*<div className="NavLink"> au dessus de : <div className="collapse navbar-collapse" id="navbarSupportedContent">*/

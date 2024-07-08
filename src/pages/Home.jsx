@@ -17,7 +17,6 @@ const Home =() =>{
                 <Header />
             </header>
             <main className='HomePage'>
-              
                 <div className="BgImage">
                     <div className="Opacity">
                         <div className="TitleHome container text-center text-light">

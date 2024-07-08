@@ -19,7 +19,7 @@ const Blog=() =>{
             <main className='BlogPage'>
                 <div>
                     <div className="TitleBlog text-center">
-                        <img src="../img/banner.jpg" className="img-fluid"></img>
+                        <img src="../img/banner.jpg" alt='banner' className="img-fluid"></img>
                         <div className='m-5'>
                             <h1 className="text-uppercase">Blog</h1>
                             <p> Retrouvez ici quelques articles sur le développement web.</p>

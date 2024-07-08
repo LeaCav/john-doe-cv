@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'NunitoSans';
   src:url(/public/fonts/NunitoSans-Medium.woff2), url(/public/fonts/NunitoSans-Medium.ttf);
@@ -6,14 +5,12 @@
 
 *{
   font-family: 'NunitoSans';
-  font-size: 400;
+  font-size:medium;
 }
 h1, h2, h3, h4, h5, h6{
-  font-size: 600;
   color: #1e1e1e;
 }
 strong{
-  font-size: 600;
   color: black;
 }
 .HomePage, .ServicePage, .PortfolioPage, .BlogPage, .ContactPage, .LegalNoticePage, .Footer{
@@ -85,17 +82,9 @@ strong{
   color: #0D6EFD;
   font-size: 3rem;
 }
-.CardService:hover{
-  .Icon{
-    color: #cde1f8;
-  }
+.CardService:hover .Icon{
+  color: #cde1f8;
 }
-
-/*Portfolio*/
-
-
-/*Blog*/
-
 
 /*Contact*/
 .MainContact{
@@ -120,9 +109,6 @@ strong{
   width: 100%;
   position: absolute;
 }
-
-/*LegalNotice*/
-
 
 /*Footer*/
 .Footer{
