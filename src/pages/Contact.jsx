@@ -68,7 +68,7 @@ const Contact =() =>{
             <main className='ContactPage'>
                 <div className='MainContact'>
                     <div className='Blue  p-5'>
-                        <div className='card p-3'>
+                        <div className='card p-2'>
                             <div className="TitleContact">
                                 <div className='text-center m-5'>
                                     <h1 className="text-uppercase">Me contacter</h1>
@@ -77,7 +77,7 @@ const Contact =() =>{
                                 </div>
                             </div>
                             <div className='row'>
-                                <div className='col'>
+                                <div className='col m-3'>
                                     <h2>Formulaire de contact</h2>
                                     <hr className='border border-primary opacity-100'/>
                                     <div className='Form p-3'>
