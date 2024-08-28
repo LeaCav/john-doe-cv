@@ -68,7 +68,7 @@ const Contact =() =>{
             <main className='ContactPage'>
                 <div className='MainContact'>
                     <div className='Blue  p-5'>
-                        <div className='card p-5'>
+                        <div className='card p-3'>
                             <div className="TitleContact">
                                 <div className='text-center m-5'>
                                     <h1 className="text-uppercase">Me contacter</h1>
