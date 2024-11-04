@@ -64,6 +64,26 @@ Le footer :
 ***
 ***
 
+# Comment se rendre sur le site de John Doe :
+
+    - Le CV de John Doe n'a pas encore de nom de domaine, pour s'y rendre il aut donc taper l'adresse suivante : 86.48.6.92
+
+# Nom de domaine :
+
+    - La mise en ligne d'un site internet nécessite l'achat d'un nom de domaine. Il existe différents sites tels que Ionos, lws ou encore OVHcloud.
+    - L'achat d'un nom de domaine se fait sur un période donnée renouvelable allant de 1 à 10 ans.
+    - Pour lier le nom de domaine au site internet (exemple pour un site hébergé sur contabo) :
+        - Il aut récupérer l'adresse IP du serveur;
+        - Aller dans les paramètres DNS du fournisseur de nom de domaine;
+        - Créer un enregistrement A pointant vers l'IP;
+        - Ajouter un CNAME pour le sous domaine www si on le souhaite;
+        - Attendre la propagation DNS;
+        - Configurer le serveur web si nécessaire.
+
+***
+***
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
